@@ -1,0 +1,92 @@
+
+.login-div {
+    margin: 50px auto;
+	padding: 60px 40px;
+	width: 60vw;
+	height: 25vh;
+	background-color: #ffffff; /* Change background color to black */
+	border-radius: 15px;
+	color: #000000; /* Change text color to white */
+	opacity: 0.9;
+}
+
+/* .login.backdrop {
+	padding: 78px;
+	background: url('http://localhost:3000/images/yellow-backdrop.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 40% 85%;
+	opacity: 0.96;
+} */
+
+.login.brand-logo {
+	margin: 26px;
+    height: 65px;
+
+}
+
+.copyright-text {
+	margin: 6vh auto 0;
+	font-size: 0.8rem;
+}
+
+@media (max-width: 1024px) {
+	.login.backdrop {
+		padding: 200px;
+	}
+
+	.login-div {
+		height: 160px;
+		padding: 40px;
+	}
+}
+
+@media (max-width: 768px) {
+	.login.backdrop {
+		padding: 100px;
+	}
+
+	.login-div {
+		height: 180px;
+		padding: 30px;
+	}
+}
+
+@media (max-width: 460px) {
+	.login.backdrop {
+		padding: 40px;
+	}
+
+	.login-div {
+		height: 160px;
+		padding: 20px;
+	}
+}
+
+@media (max-width: 360px) {
+	.login-div {
+		height: 185px;
+	}
+}
+
+@media (max-width: 320px) {
+	.login.backdrop {
+		padding: 20px;
+	}
+
+	.login-div {
+		height: 160px;
+		padding: 8px;
+	}
+}
+
+@media (max-width: 280px) {
+	.login.backdrop {
+		padding: 0;
+	}
+
+	.login-div {
+		height: 175px;
+		padding: 5px;
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"name": "Playlistr",
+	"short_name": "Playlistr",
+	"icons": [
+		{
+			"src": "favicon.ico",
+			"sizes": "48x48",
+			"type": "image/x-icon"
+		},
+		{
+			"src": "/images/icons/android-chrome-192x192.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"src": "/images/icons/android-chrome-512x512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	],
+	"start_url": "./index.html",
+	"theme_color": "#171c20",
+	"background_color": "#171c20",
+	"display": "standalone"
+}

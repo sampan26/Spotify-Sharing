@@ -1,0 +1,109 @@
+h1.home-banner {
+	color: #646a74;
+	font-size: 3.5rem;
+}
+
+.welcome-brand {
+	color: #ffffff;
+	font-weight: 600;
+}
+
+.home.profile-pic {
+	margin: 30px 0 9px;
+}
+
+.user-name {
+	color: #fed402;
+	opacity: 0.98;
+	margin: 0 0 18px;
+}
+
+.home-carousel {
+	width: 1140px;
+	min-height: 450px;
+	margin: 10px auto;
+	padding: 0;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+	padding-bottom: 30px;
+	width: 4%;
+}
+
+.playlist-alert {
+	width: 50%;
+	position: absolute;
+	left: 30%;
+	top: 100px;
+	z-index: 1;
+}
+
+.playlist-alert button {
+	margin: 0;
+}
+
+@media (max-width: 1199px) {
+	h1.home-banner {
+		font-size: 48px;
+	}
+}
+
+@media (max-width: 768px) {
+	h1.home-banner {
+		font-size: 30px;
+	}
+}
+
+@media (max-width: 460px) {
+	h1.home-banner {
+		font-size: 38px;
+	}
+
+	.home-carousel {
+		height: 100%;
+		padding-bottom: 20%;
+	}
+}
+
+@media (max-width: 450px) {
+	h1.home-banner {
+		font-size: 37px;
+	}
+}
+
+@media (max-width: 414px) {
+	h1.home-banner {
+		font-size: 34px;
+	}
+}
+
+@media (max-width: 411px) {
+	h1.home-banner {
+		font-size: 33px;
+	}
+}
+
+@media (max-width: 375px) {
+	h1.home-banner {
+		font-size: 30px;
+	}
+}
+
+@media (max-width: 360px) {
+	h1.home-banner {
+		font-size: 29px;
+	}
+}
+
+@media (max-width: 320px) {
+	h1.home-banner {
+		font-size: 25px;
+	}
+}
+
+@media (max-width: 280px) {
+	h1.home-banner {
+		font-size: 21px;
+	}
+}

@@ -1,0 +1,83 @@
+.room-buttons-container {
+	padding: 1%;
+	background-color: #171c20;
+}
+
+.join-room-btn,
+.room-input,
+.create-room-btn {
+	margin: 0;
+}
+
+@media (max-width: 460px) {
+	.room-buttons-container {
+		padding: 5%;
+		background-color: #171c20;
+		height: 120px;
+	}
+	.room-input {
+		width: 284px;
+	}
+	.create-room-btn {
+		width: 100%;
+		align-content: center;
+	}
+}
+
+@media (max-width: 450px) {
+	.room-input {
+		width: 276px;
+	}
+}
+
+@media (max-width: 414px) {
+	.room-buttons-container {
+		height: 115px;
+	}
+
+	.room-input {
+		width: 243px;
+	}
+}
+
+@media (max-width: 411px) {
+	.room-input {
+		width: 240px;
+	}
+}
+
+@media (max-width: 375px) {
+	.room-buttons-container {
+		height: 112px;
+	}
+
+	.room-input {
+		width: 208px;
+	}
+}
+
+@media (max-width: 360px) {
+	.room-input {
+		width: 194px;
+	}
+}
+
+@media (max-width: 320px) {
+	.room-buttons-container {
+		height: 105px;
+	}
+
+	.room-input {
+		width: 159px;
+	}
+}
+
+@media (max-width: 280px) {
+	.room-buttons-container {
+		height: 101px;
+	}
+
+	.room-input {
+		width: 122px;
+	}
+}
